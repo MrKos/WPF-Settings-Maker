@@ -7,13 +7,13 @@
             <ColumnDefinition Width="5*"/>
             <ColumnDefinition Width="491*"/>
         </Grid.ColumnDefinitions>
-        <Button Name="FolderBrowser_btn" Content="Обзор" Grid.Column="1" HorizontalAlignment="Left" Margin="401,69,0,-91" VerticalAlignment="Top" Width="75" Height="22" Click="Button_Click"/>
+        <Button Name="FolderBrowser_btn" Content="Обзор" Grid.Column="1" HorizontalAlignment="Left" Margin="401,69,0,-91" VerticalAlignment="Top" Width="75" Height="22" Click="Browse_Click"/>
         <TextBox Name="PathTextBox"  Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="7,69,0,-92" TextWrapping="Wrap" Text="&#xD;&#xA;" VerticalAlignment="Top" Width="389"/>
-        <Button Name="Save_btn" Content="Сохранить" Grid.Column="1" HorizontalAlignment="Left" Margin="205,98,0,-120" VerticalAlignment="Top" Width="75" Height="22" Click="Button_Click_1"/>
+        <Button Name="Save_btn" Content="Сохранить" Grid.Column="1" HorizontalAlignment="Left" Margin="205,98,0,-120" VerticalAlignment="Top" Width="75" Height="22" Click="Save_Click"/>
         <DockPanel Grid.Column="1" HorizontalAlignment="Left" Height="0" LastChildFill="False" Margin="87,11,0,-11" VerticalAlignment="Top" Width="100"/>
         <Label Name="FolderBrowser_path" Content="Установить путь к хранилищу файлов" Grid.Column="1" HorizontalAlignment="Left" Height="33" Margin="5,39,0,-72" VerticalAlignment="Top" Width="248"/>
         <ComboBox Name="DepartmentSelect" Grid.Column="1" HorizontalAlignment="Left" Height="22" Margin="5,10,0,-32" VerticalAlignment="Top" Width="232" SelectionChanged="DepartmentSelect_SelectionChanged">
-            <ComboBoxItem IsSelected="True"  Content="Клиент #1"></ComboBoxItem>
+            <ComboBoxItem Content="Клиент #1"></ComboBoxItem>
             <ComboBoxItem Content="Клиент #2"></ComboBoxItem>
             <ComboBoxItem Content="Клиент #3"></ComboBoxItem>
             <ComboBoxItem Content="Клиент #4"></ComboBoxItem>
